@@ -1,0 +1,43 @@
+﻿body 
+{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 10px;
+    background-color:#422f25;
+    font-family: 'Matura MT Script Capitals';
+    font-size:20px;
+    padding: 10px;
+    
+}
+
+a {
+    display: inline-block; 
+    letter-spacing: 1px;
+    border: 2px solid white;
+    font-family: 'Matura MT Script Capitals';
+    padding: 4px;
+    margin: 5px;
+    background-color: silver;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    font-size:10px;
+    color:white;
+}
+
+#sector1
+{
+   border:5px solid black;
+   float: right;
+   background-color: tan;
+   padding-left: 10px;
+  
+}
+

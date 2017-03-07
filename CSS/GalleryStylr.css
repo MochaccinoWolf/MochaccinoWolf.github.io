@@ -1,0 +1,94 @@
+﻿
+.floated_img
+{
+    float:left;
+    display:inline-grid;     
+    width: 300px;        
+    padding:5px;
+    
+    
+}
+
+.container
+{
+    border-bottom: 3px solid gray;
+    margin: 0 auto;
+    width: 300px;  
+}
+
+.floated_text{
+    color:#ffffff;
+    font-family: Arial;
+     text-align:center;
+     padding: 5px;
+}
+
+       body 
+{
+    margin: 0 auto;
+    width: 1800px;
+    padding: 10px;
+    background-color:#422f25;
+    
+    font-size:20px;
+    padding: 10px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+font-family: 'Matura MT Script Capitals';
+}
+#sector1
+{
+   border:5px solid black;
+   
+   background-color: tan;
+   padding: 10px;
+  
+}
+#title
+{
+    font-size: 20px;
+    font-weight:bold;   
+    color: tan;
+    text-align:center;
+    
+}
+#fooftaur
+{
+  width: 300px;
+  text-align:right;
+
+}
+nav{
+   
+    border:2px solid black;
+    background-color:grey;
+    color:white;
+    text-decoration:none;
+    text-emphasis:none;
+    padding: 10px;
+}
+footer{
+    font-size:10px;
+    color:white;
+    text-align:center;
+
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    display: inline-block; 
+    letter-spacing: 1px;
+    border: 2px solid white;
+    font-family: 'Matura MT Script Capitals';
+    padding: 4px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
