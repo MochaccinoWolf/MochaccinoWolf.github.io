@@ -4,34 +4,33 @@
     float:left;
     display:inline-grid;     
     width: 350px;        
-    padding:5px;
-    
-    
-    
+    padding:5px;   
 }
 
 .container
 {
     border-bottom: 3px solid gray;
     margin: 0 auto;
-    width: 90%;  
+    width: 1800px;  
     height: 2000px;
 }
 
-.floated_text{
+.floated_text
+{
     color:#ffffff;
+    font-size:10px;
     font-family: Arial;
-     text-align:center;
-     padding: 5px;
+    text-align:center;
+    padding: 5px;
 }
 
-       body 
+       
+body 
 {
     margin: 0 auto;
     width: 1800px;
     padding: 10px;
-    background-color:#422f25;
-    
+    background-color:#422f25;    
     font-size:20px;
     padding: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
