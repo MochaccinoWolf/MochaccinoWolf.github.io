@@ -3,16 +3,9 @@
 {
     float:left;
     display:inline-grid;     
-    width: 500px;        
+    width: 300px;        
     padding:5px;
-  
     
-    
-    
-}
-
-.floated_text:checked{
-    color:purple;
     
 }
 
@@ -20,15 +13,11 @@
 {
     border-bottom: 3px solid gray;
     margin: 0 auto;
-    width: 800px;
-    float:left;
-    padding:20px;
-   
+    width: 300px;  
 }
 
 .floated_text{
     color:#ffffff;
-    font-size:10px;
     font-family: Arial;
      text-align:center;
      padding: 5px;
@@ -52,7 +41,8 @@ font-family: 'Matura MT Script Capitals';
 }
 #sector1
 {
-   border:5px solid black;   
+   border:5px solid black;
+   
    background-color: tan;
    padding: 10px;
   
