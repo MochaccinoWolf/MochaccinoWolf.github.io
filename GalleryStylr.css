@@ -3,8 +3,9 @@
 {
     float:left;
     display:inline-grid;     
-    width: 300px;        
+    width: 350px;        
     padding:5px;
+    
     
     
 }
@@ -13,7 +14,8 @@
 {
     border-bottom: 3px solid gray;
     margin: 0 auto;
-    width: 300px;  
+    width: 90%;  
+    height: 2000px;
 }
 
 .floated_text{
@@ -32,7 +34,7 @@
     
     font-size:20px;
     padding: 10px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
