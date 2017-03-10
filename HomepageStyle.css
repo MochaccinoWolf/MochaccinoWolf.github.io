@@ -1,12 +1,13 @@
 ﻿body 
 {
     margin: 0 auto;
-    width: 95%;
+    width: 1200px;
     padding: 10px;
-    background-color:#422f25;    
+    background-color:#422f25;
+    
     font-size:20px;
     padding: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
