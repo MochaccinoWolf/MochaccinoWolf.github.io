@@ -3,10 +3,10 @@
 .floated_img
 {
     float:left;
-    display:inline-grid;     
-    width: 350px;        
+    display:inline-block;     
+    width: 300px;        
     padding:5px;
-    
+    border: 3px solid Yellow;
     
     
 }
@@ -16,23 +16,23 @@
     border-bottom: 3px solid gray;
     margin: 0 auto;
     width: 90%;  
-    height: 2000px;
+    flex-wrap:wrap;
 }
 
 .floated_text{
     color:#ffffff;
     font-family: Arial;
-     text-align:center;
-     padding: 5px;
+    text-align:center;
+    padding: 5px;
+    
 }
 
        body 
 {
     margin: 0 auto;
-    width: 1800px;
+    width: 90%;
     padding: 10px;
-    background-color:#422f25;
-    
+    background-color:#422f25;    
     font-size:20px;
     padding: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,28 +42,9 @@
 h1{
 font-family: 'Matura MT Script Capitals';
 }
-#sector1
-{
-   border:5px solid black;
-   
-   background-color: tan;
-   padding: 10px;
-  
-}
-#title
-{
-    font-size: 20px;
-    font-weight:bold;   
-    color: tan;
-    text-align:center;
-    
-}
-#fooftaur
-{
-  width: 300px;
-  text-align:right;
 
-}
+
+
 nav{
    
     border:2px solid black;
@@ -84,7 +65,7 @@ p{
 }
 
 a {
-    display: inline-block; 
+    display: inline-block;
     letter-spacing: 1px;
     border: 2px solid white;
     font-family: 'Matura MT Script Capitals';
@@ -94,101 +75,5 @@ a {
     color: white;
     text-decoration: none;
     text-align: center;
-
-
-
-{
-    float:left;
-    display:inline-grid;     
-    width: 350px;        
-    padding:5px;
-    
-    
-    
 }
 
-
-{
-    border-bottom: 3px solid gray;
-    margin: 0 auto;
-    width: 90%;  
-    height: 2000px;
-}
-
-{
-    color:#ffffff;
-    font-family: Arial;
-     text-align:center;
-     padding: 5px;
-}
-
-
-{
-    margin: 0 auto;
-    width: 1800px;
-    padding: 10px;
-    background-color:#422f25;
-    
-    font-size:20px;
-    padding: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-
-{
-font-family: 'Matura MT Script Capitals';
-}
-  
-  {
-   border:5px solid black;
-   
-   background-color: tan;
-   padding: 10px;
-  
-}
-
-{
-    font-size: 20px;
-    font-weight:bold;   
-    color: tan;
-    text-align:center;
-    
-}
-
-{
-  width: 300px;
-  text-align:right;
-
-}
-{
-   
-    border:2px solid black;
-    background-color:grey;
-    color:white;
-    text-decoration:none;
-    text-emphasis:none;
-    padding: 10px;
-}
-{
-    font-size:10px;
-    color:white;
-    text-align:center;
-
-}
-{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
- {
-    display: inline-block; 
-    letter-spacing: 1px;
-    border: 2px solid white;
-    font-family: 'Matura MT Script Capitals';
-    padding: 4px;
-    margin: 5px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-
-}
