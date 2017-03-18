@@ -1,22 +1,29 @@
-
-
 .floated_img
 {
-    float:left;
-    display:inline-block;     
-    width: 300px;        
+    float:left;  
+    display:inline-grid;    
+    width:350px;        
     padding:5px;
-    
-    
-    
+    image-rendering:optimizeSpeed;
+   
+      
 }
+
 
 .container
 {
-    border-bottom: 3px solid gray;
+       
+    width: 95%;        
+    
+    align-content:space-between;
+    display:flex; 
     margin: 0 auto;
-    width: 90%;  
     flex-wrap:wrap;
+    align-items: center;
+   
+   
+    
+   
 }
 
 .floated_text{
@@ -27,20 +34,22 @@
     
 }
 
-       body 
+body 
 {
     margin: 0 auto;
-    width: 90%;
+    
     padding: 10px;
     background-color:#422f25;    
     font-size:20px;
-    padding: 10px;
+    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     
 }
 
-h1{
-font-family: 'Matura MT Script Capitals';
+h1
+{
+    font-family: 'Matura MT Script Capitals';
 }
 
 
