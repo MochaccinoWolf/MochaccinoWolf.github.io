@@ -1,13 +1,13 @@
 ﻿body 
 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     padding: 10px;
     background-color:#422f25;
     
     font-size:20px;
     padding: 10px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -19,17 +19,10 @@ font-family: 'Matura MT Script Capitals';
    border:5px solid black;
    float: right;
    background-color: tan;
-   padding: 10px;
+   padding: 30px;
   
 }
-#title
-{
-    font-size: 20px;
-    font-weight:bold;   
-    color: tan;
-    text-align:center;
-    
-}
+
 #fooftaur
 {
   width: 300px;

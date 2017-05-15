@@ -1,7 +1,7 @@
 ﻿body 
 {
     margin: 0 auto;
-    width: 1200px;
+    width: 1800px;
     padding: 10px;
     background-color:#422f25;
     
@@ -64,4 +64,15 @@ a {
     color: black;
     text-decoration: none;
     text-align: center;
+}
+
+twitter-feed{
+    float:right; 
+    display: block;
+
+}
+
+commForm {
+    float: left;
+    padding:10px;
 }
