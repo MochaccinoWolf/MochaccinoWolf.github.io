@@ -71,3 +71,8 @@ twitter-feed{
     display: block;
 
 }
+
+commForm {
+    float: left;
+    padding:10px;
+}
