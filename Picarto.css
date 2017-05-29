@@ -68,11 +68,10 @@ a {
 
 twitter-feed{
     float:right; 
+    align-content:center;
+    padding:10px;
+
     display: block;
 
 }
 
-commForm {
-    float: left;
-    padding:10px;
-}

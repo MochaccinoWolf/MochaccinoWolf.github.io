@@ -1,18 +1,18 @@
 ﻿body 
 {
     margin: 0 auto;
-    width: 1200px;
+    width:90%;
     padding: 10px;
     background-color:#422f25;
     
     font-size:20px;
     padding: 10px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:monospace, Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 h1{
-font-family: 'Matura MT Script Capitals';
+font-family: 'Modern No. 20';
 }
 #sector1
 {
@@ -50,7 +50,7 @@ footer{
     color:white;
 }
 p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:monospace, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -64,4 +64,12 @@ a {
     color: black;
     text-decoration: none;
     text-align: center;
+}
+
+#Social_Links{
+    float: left;
+    border: 3px dashed white;
+    display: inline-block;
+
+
 }
