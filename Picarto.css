@@ -54,18 +54,17 @@ p{
 }
 
 a {
-    display: inline-block; 
+    display: inline-block;
     letter-spacing: 1px;
-    border: 2px solid white;
-    font-family: 'Matura MT Script Capitals';
+    border: 3px groove black;
+    font-family: 'Modern No. 20';
     padding: 4px;
     margin: 5px;
-    background-color: silver;
+    border-radius: 10px;
     color: black;
     text-decoration: none;
     text-align: center;
 }
-
 twitter-feed{
     float:right; 
     align-content:center;
