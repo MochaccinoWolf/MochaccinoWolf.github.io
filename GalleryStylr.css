@@ -4,8 +4,7 @@
     display:inline-grid;    
     width:250px;
     height:250px;
-    overflow: hidden;
-    resize:both;
+    overflow: hidden;    
     object-fit:cover; 
     crop:insert-rect(250px);
     image-rendering: optimizeQuality;
@@ -13,14 +12,6 @@
     
    
       
-}
-
-.floated_img:hover{
-    border-bottom: 5px solid #ff6a00;
-    
-    
-   
-
 }
 
 
