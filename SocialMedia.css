@@ -61,14 +61,15 @@ p{
 a {
     display: inline-block;
     letter-spacing: 1px;
-    border: 3px groove black;
+    border: 3px solid black;
     font-family: 'Modern No. 20';
-    padding: 4px;
+    padding: 10px;
     margin: 5px;
     border-radius: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
+    text-emphasis: none;
 }
 
 
