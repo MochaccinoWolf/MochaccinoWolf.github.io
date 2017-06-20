@@ -28,6 +28,7 @@ nav {
     width: 100%;
     top: 0%;
     left: 0%;
+  
 }
 
 
@@ -82,3 +83,20 @@ a {
     overflow-wrap:break-word;
 }
 
+img.icon{
+    width:80px;
+    height:80px;
+}
+
+.twitter-follow-button {
+    float: right;
+    position: relative;
+    top: 10%;
+    right:10%;
+}
+
+.twitter-feed {
+    float:right;
+    position:fixed;
+    top:20%;
+}

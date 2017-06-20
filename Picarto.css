@@ -47,6 +47,7 @@ nav {
     width: 100%;
     top: 0%;
     left: 0%;
+    opacity: 0.7;
 }
 footer{
     font-size:10px;

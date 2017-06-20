@@ -7,8 +7,8 @@
     overflow: hidden;    
     object-fit:cover; 
     crop:insert-rect(250px);
-    image-rendering: optimizeQuality;
-    padding:10px;
+    image-rendering: optimizeSpeed;
+    padding:5px;
     
    
       
@@ -25,12 +25,12 @@ nav {
     position: fixed;
     width: 100%;
     top: 0%;
-    left: 0%
+    left: 0%;
+    
 }
 .container {
     position:absolute;
     top: 10%;
-
     padding-left:50px;
     align-content: space-between;
     display: flex;
@@ -46,7 +46,8 @@ nav {
     color:#ffffff;
     font-family: Arial;
     text-align:center;
-    padding: 5px;
+    padding: 2px;
+    font-size:12px;
     
 }
 
@@ -68,7 +69,11 @@ h1
     font-family: 'Matura MT Script Capitals';
 }
 
-
+.floated_img:hover{
+    border: 2px solid orange;  
+    image-rendering:optimizeQuality;
+    
+}
 
 
 
