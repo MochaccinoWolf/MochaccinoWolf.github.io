@@ -1,47 +1,50 @@
 ﻿body {
     margin: 0 auto;
     width: 90%;
-    padding: 10px;
-    background-color: #422f25;
+    float:right;
+   /*background-color: #422f25;*/ 
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* background-image:url(/BackgroundYTTwitter.png);
+    background-position:center;
+    background-repeat:repeat-y;*/
 }
 
 h1{
 font-family: 'Modern No. 20';
 }
 
-.MochainCup{
-    float:right;
-    text-wrap:normal;
-    will-change:contents;
-    padding:10px;
-    
-}
 
-#sector1 {
+.mainText {
+   /*  position:fixed;
+    right:05%;
+    width:70%;
+    top: 5%;
+   background-color: tan;*/
+    padding: 20px;
+   /* border:3px solid skyblue;*/
+    word-wrap:break-word;
     
-    float: right;
-    background-color: tan;
-    padding: 30px;
+
 }
 
 nav {
-    border: 2px solid black;
+    /* border: 2px solid black;
+    */
+    opacity: 0.7;
     background-color: grey;
-    color: white;
+    color: black;
     text-decoration: none;
     text-emphasis: none;
-    padding: 10px;
+    padding: 3px;
     position: fixed;
     width: 100%;
     top: 0%;
     left: 0%;
-    opacity: 0.7;
 }
 footer{
     font-size:10px;
-    color:white;
+    color:black;
 }
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,27 +53,45 @@ p{
 a {
     display: inline-block;
     letter-spacing: 1px;
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     font-family: 'Modern No. 20';
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     border-radius: 10px;
     color: white;
-    text-decoration: none;
+   /* text-shadow:5px 2px 0px black;*/
+    text-decoration: solid;
     text-align: center;
-    text-emphasis: none;
+    text-emphasis:none;
+    
 }
 
-.weblogo{
-    content:icon;
-    width:100px;
-    padding:10px;
-    position:relative;
-    top:10px;
-    right: 0%;
+
+#mainAside{
+    position:fixed;
+    left:0%;
+    top: 6%;
+    float:left;
+    padding:2px;  
+   /* border: 2px red solid;*/
 }
 
-.navSideBar:hover{
-    animation-play-state:running;
+#landingPageText {
+   
+    right:05%;
+    width:70%;
+    top: 5%;
+}
+#bottomBar {
+    opacity: 0.7;
+    background-color: grey;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+   
+    font-size:15px;
+    display:inline;
     
 }
