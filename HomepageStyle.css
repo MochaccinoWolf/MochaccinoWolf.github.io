@@ -1,50 +1,53 @@
 ﻿body {
     margin: 0 auto;
-    padding-left:220px;
+    padding-left: 220px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(/BackgroundYTTwitter.png);
-    background-position:center;
-    background-repeat:repeat-y;
-    background-size:contain;
+    background-image: url(/BackgroundYTTwitter.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
-h1{
-font-family: 'Modern No. 20';
+h1 {
+    font-family: 'Modern No. 20';
 }
 
-.main
-{
-    display:inline-block;
+.main {
+    display: inline-block;
     max-width: 1000px;
-    max-height:900px;
-    vertical-align:top;
+    max-height: 1000px;
+    vertical-align: top;
     position: fixed;
-    left: 20%;
-    top: 5%;
+    left: 300px;
+    top: 30px;
+    /* border:3px solid red;*/
+    color: white;
+    padding: 5px;
 }
 
 nav {
     /* border: 2px solid black;
     */
-    opacity: 0.7;
-    background-color: grey;
-    color: black;
+    opacity: .;
+    background-color: black;
+    /*color: black;
     text-decoration: none;
-    text-emphasis: none;
+    text-emphasis: none;*/
     padding: 3px;
     position: fixed;
     width: 100%;
     top: 0%;
     left: 0%;
 }
-footer{
-    font-size:10px;
-    color:black;
 
+footer {
+    font-size: 10px;
+    color: black;
 }
-p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -54,36 +57,32 @@ a {
     font-family: 'Modern No. 20';
     padding: 5px;
     margin: 5px;
-    
     color: white;
-   /* text-shadow:5px 2px 0px black;*/
+    /* text-shadow:5px 2px 0px black;*/
     text-decoration: none;
     text-align: center;
-    text-emphasis:none;
-    
+    text-emphasis: none;
 }
 
 
-#mainAside{
-    position:fixed;
-    left:0%;
+#mainAside {
+    position: fixed;
+    left: 0%;
     top: 6%;
-    float:left;
-    padding:2px;  
-   /* border: 2px red solid;*/
+    float: left;
+    padding-top: 10px;
+    /* border: 2px red solid;*/
 }
 
 
 #bottomBar {
-    opacity: 0.9;
-    background-color: grey;
+    opacity: 1;
+    background-color: black;
     color: black;
     position: fixed;
     width: 100%;
     bottom: 0%;
     left: 0%;
-   
-    font-size:15px;
-    display:inline;
-    
+    font-size: 15px;
+    display: inline;
 }

@@ -1,98 +1,89 @@
-.floated_img
-{
-    float:left;  
-    display:inline-grid;    
-    width:250px;
-    height:250px;
-    overflow: hidden;    
-    object-fit:cover; 
-    crop:insert-rect(250px);
+.floated_img {
+    float: left;
+    display: inline-grid;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    crop: insert-rect(250px);
     image-rendering: optimizeSpeed;
-    padding:5px;
-    
-   
-      
+    padding: 5px;
 }
 
 
 nav {
     /* border: 2px solid black;
     */
-    opacity: 0.7;
-    background-color: grey;
+    background-color: black;
     color: black;
     text-decoration: none;
     text-emphasis: none;
-    padding: 3px;
+    /*padding: 3px;*/
     position: fixed;
     width: 100%;
-    top: 0%;
-    left: 0%;
+    top: 0px;
+    left: 0px;
 }
+
 .container {
-    position:absolute;
-    top: 10%;
-    padding-left:50px;
+    position: absolute;
+    top: 100px;
+    padding-left: 100px;
     align-content: space-between;
     display: flex;
     margin: 0 auto;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
-    overflow: hidden;    
+    overflow: hidden;
     object-fit: fill;
-    
 }
 
-.floated_text{
-    color:#ffffff;
-    font-family: Arial;
-    text-align:center;
+.floated_text {
+    color: wheat;
+    font-family: sans-serif;
+    text-align: center;
     padding: 2px;
-    font-size:12px;
-    
+    font-size: 15px;
 }
 
-body 
-{
+body {
     margin: 0 auto;
-    
     padding: 10px;
-    /*background-color:#422f25;  */  
-    font-size:20px;
-    
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+    background-color: #422f25;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1
-{
+h1 {
     font-family: 'Matura MT Script Capitals';
 }
 
-/*.floated_img:hover{
-    border: 2px solid orange;  
-    image-rendering:optimizeQuality;
-    
+.floated_img:hover {
+    border: 2px solid orange;
+    image-rendering: auto;
+    width: unset;
 }
 
-*/
 
-/*footer{
-    font-size:10px;
-    color:white;
-    text-align:center;
+footer {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    align-items: center;
+    left: 550px;
+}
 
-}*/
-p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
     display: inline-block;
     letter-spacing: 1px;
     /*border: 3px solid black;*/
-    font-family: 'Modern No. 20';
+    font-family: sans-serif;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
