@@ -23,7 +23,7 @@ h1 {
     top: 30px;
     /* border:3px solid red;*/
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav {
@@ -64,6 +64,9 @@ a {
     text-emphasis: none;
 }
 
+a:hover{
+    color:wheat;
+}
 
 #mainAside {
     position: fixed;
