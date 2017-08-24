@@ -1,27 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebRebuild", ".", "{2BFC42FD-25F2-4A95-9A8F-926129B26862}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51809"
-		Debug.AspNetCompiler.PhysicalPath = "..\WebRebuild\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\WebRebuild\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51809\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51809"
-		Release.AspNetCompiler.PhysicalPath = "..\WebRebuild\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\WebRebuild\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51809\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51809"
-		SlnRelativePath = "..\WebRebuild\"
 	EndProjectSection
 EndProject
 Global
