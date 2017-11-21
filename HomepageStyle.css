@@ -3,7 +3,7 @@
     padding-left: 220px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgray;
+    background-color: black;
     /*background-color: #211a14;*/
     /*background-image: url(/BackgroundYTTwitter.png);
     background-position: center;
@@ -11,9 +11,9 @@
     background-size: cover;*/
 }
 
-h1 {
+/*h1 {
     font-family: 'Modern No. 20';
-}
+}*/
 
 .main-container {
     display: block;
