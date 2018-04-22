@@ -13,10 +13,10 @@
 }
 
 .main-container, #main-content {
-    float: left;
+    /* float: left; */
     left: 50px;
-    font-size: 20px;
-    position: relative;
+    font-size: 20px,2em;
+    position:fixed;
     color: wheat;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -25,7 +25,7 @@
 .navSidebar {
     background-color: #a04f34;
     padding: 3px;
-    position: relative;
+    /* position: relative; */
     width: 100%;
     top: 0%;
     left: 0%;
@@ -52,7 +52,7 @@ a {
         color: wheat;
     }
 
-#mainAside, .twitter-timeline {
+/* #mainAside, .twitter-timeline {
     position: relative;
     right: 30px;
     bottom: 500px;
@@ -60,7 +60,7 @@ a {
     float: right;
     padding-left: 10px;
     padding-top: 10px;
-}
+} */
 
 #greenpanda {
     float: right;
