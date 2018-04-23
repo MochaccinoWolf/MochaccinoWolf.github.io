@@ -1,0 +1,18 @@
+body{
+  margin: 0 auto;
+  width: 90%;
+  background-color: #43342f;
+  font-size: 20px, 2em;
+  font-family: monospace, sans-serif;
+  color: wheat;
+}
+img#aboutwolfroo{
+  width: 550px;
+  padding: 5px;
+  /* OPTIMIZE: Speed */
+  border: 2px solid white;
+}
+
+h1,h2,header {
+  color:#a04f34;
+}

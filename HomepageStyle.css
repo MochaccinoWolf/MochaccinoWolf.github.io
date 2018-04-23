@@ -16,7 +16,7 @@
     /* float: left; */
     left: 50px;
     font-size: 20px,2em;
-    position:fixed;
+    position:relative;
     color: wheat;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -52,23 +52,23 @@ a {
         color: wheat;
     }
 
-/* #mainAside, .twitter-timeline {
-    position: relative;
-    right: 30px;
-    bottom: 500px;
-    top: 10px;
-    float: right;
-    padding-left: 10px;
+#mainAside{
+    position:relative;
+    float:right;
+    padding-right: 1200px;
     padding-top: 10px;
-} */
+    padding-bottom:10px;
+    padding-left: 2100px;
+    padding: 10px;
+}
 
 #greenpanda {
-    float: right;
+    float:left;
     position: relative;
     word-wrap: normal;
     padding: 5px;
     width: 300px;
-   
+
 }
 
 #bottomBar {
