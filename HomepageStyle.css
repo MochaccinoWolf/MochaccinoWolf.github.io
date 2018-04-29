@@ -1,6 +1,6 @@
 ﻿body {
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #43342f;
 }
@@ -12,16 +12,15 @@
     color: saddlebrown;
 }
 
-.main-container, #main-content {
-    /* float: left; */
-    left: 50px;
-    font-size: 20px,2em;
-    position:relative;
-    color: wheat;
-    padding-bottom: 20px;
-    padding-left: 10px;
-}
 
+#main-content {
+    max-width: 1500px;
+    min-width: 300px;
+    font-size: 20px,2em;
+    position: relative;
+    color: wheat;
+    padding:10px;
+}
 .navSidebar {
     background-color: #a04f34;
     padding: 3px;
@@ -29,11 +28,17 @@
     width: 100%;
     top: 0%;
     left: 0%;
+    display:inline-block;
 }
 
-footer {
+#bottomBar {
     font-size: 10px;
     color: black;
+    opacity:0.78;
+}
+div#bottomBar{
+    opacity:.75;
+    
 }
 
 
@@ -52,23 +57,11 @@ a {
         color: wheat;
     }
 
-#mainAside{
-    position:relative;
-    float:right;
-    padding-right: 1200px;
-    padding-top: 10px;
-    padding-bottom:10px;
-    padding-left: 2100px;
-    padding: 10px;
-}
-
-#greenpanda {
+.twitter-timeline {
+    position:static;
     float:left;
-    position: relative;
-    word-wrap: normal;
-    padding: 5px;
-    width: 300px;
-
+    padding-top:50px;
+    
 }
 
 #bottomBar {
@@ -81,3 +74,4 @@ a {
     font-size: 15px;
     display: inline;
 }
+
