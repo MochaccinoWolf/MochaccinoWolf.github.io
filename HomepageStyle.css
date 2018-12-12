@@ -1,8 +1,9 @@
-﻿body {
+body {
     margin: 0 auto;
     font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #43342f;
+    background-color: rgb(32,32,32);
+   
 }
 
 #mainhead {
@@ -12,7 +13,6 @@
     color: saddlebrown;
 }
 
-
 #main-content {
     max-width: 1500px;
     min-width: 300px;
@@ -20,6 +20,7 @@
     position: relative;
     color: wheat;
     padding:10px;
+     width: 95%;
 }
 .navSidebar {
     background-color: #a04f34;
@@ -36,10 +37,10 @@
     color: black;
     opacity:0.78;
 }
-div#bottomBar{
-    opacity:.75;
+/*div#bottomBar{*/
+/*    opacity:.75;*/
     
-}
+/*}*/
 
 
 a {
@@ -61,17 +62,19 @@ a {
     position:static;
     float:left;
     padding-top:50px;
+    padding-bottom: 10px;
     
 }
 
 #bottomBar {
     background-color: black;
     color: black;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0%;
     left: 0%;
     font-size: 15px;
     display: inline;
 }
+
 
