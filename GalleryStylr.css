@@ -1,7 +1,7 @@
 body {
-    background-color: #43342f;
+    background-color: rgb(32,32,32);
     margin: 0 auto;
-    font-size: 20px, 2em;
+    font-size: 15px, 2em;
     font-family: 'DejaVu Serif';
 }
 
@@ -28,7 +28,8 @@ body {
         height:90%;
         image-resolution:350dpi;
         image-rendering:pixelated;
-        background-color: black;    
+        background-color: black;  
+        
     }
 
 nav {
@@ -47,7 +48,8 @@ nav {
 }
 
 a:hover{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    color:wheat;
 }
 .container {
     position: absolute;
