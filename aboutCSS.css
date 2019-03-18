@@ -1,11 +1,11 @@
-body{
-  margin: 0 auto;
-  width: 90%;
-  background-color: #43342f;
-  font-size: 20px, 2em;
-  font-family:'DejaVu Sans';
-  color: wheat;
-  padding-top:60px;
+body {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(32,32,32);
+    font-size: 20px, 2em;
+    font-family: 'DejaVu Sans';
+    color: wheat;
+    padding-top: 60px;
 }
 
 nav {
