@@ -7,12 +7,12 @@ body {
 
 .floated_img {
     float: left;
-    display: grid;
+    display:inline-grid;
     width: 250px;
     height: 250px;
     overflow: hidden;
     object-fit: cover;
-    crop: insert-rect(250px);
+    /* crop: insert-rect(250px); */
     image-rendering: pixelated;
     padding: 5px;
 
@@ -20,7 +20,7 @@ body {
 
  .floated_img:hover
     {
-        border: 3px solid white;
+        border: 3px solid wheat;
         width: unset;
         resize:both;
 
@@ -29,32 +29,49 @@ body {
  .floated_img:active{
         width:90%;
         height:90%;
+        align-content: center;
         image-resolution:350dpi;
         image-rendering:pixelated;
-        background-color: black;  
+        background-color: black;
         background-clip:unset;
-        
+
     }
 
 nav {
-    /* border: 2px solid black;
-    */
+    border-radius: 20px;
     background-color:#a04f34;
     color: black;
     text-decoration: none;
     /* text-emphasis: none; */
-    /*padding: 3px;*/
+    padding: 10px;
     position: fixed;
-    width: 100%;
+    width: 150px;
     top: 10px;
-    left: 0px;
-    /*padding: 10px;*/
+    left: 50px;
+
+
 }
 
 a:hover{
     /*border: 2px solid black;*/
     color:wheat;
 }
+a {
+    display: inline-block;
+    /*letter-spacing: 1px;*/
+    /*border: 3px solid black;*/
+    font-family: 'Segoe UI';
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    /* text-shadow:5px 2px 0px black;*/
+    text-decoration: solid;
+    text-align: center;
+    text-emphasis: none;
+
+}
+
 .container {
     position: absolute;
     top: 100px;
@@ -91,17 +108,4 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a {
-    display: inline-block;
-    /*letter-spacing: 1px;*/
-    /*border: 3px solid black;*/
-    font-family: 'Segoe UI';
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    color: white;
-    /* text-shadow:5px 2px 0px black;*/
-    text-decoration: solid;
-    text-align: center;
-    text-emphasis: none;
-}
+ 
