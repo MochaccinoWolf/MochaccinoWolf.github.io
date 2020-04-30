@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title> Twitch - MochaWolfroo </title>
+  <link rel="stylesheet" href="twitchstyle.css" />
+</head>
+<body>
+  <nav>
+      <a href="index.html"> &lang; Back to Home </a>
+  </nav>
+  <!-- Add a placeholder for the Twitch embed -->
+ <div id="twitch-embed">
+
+ <!-- Load the Twitch embed script -->
+ <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+ <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+ <script type="text/javascript">
+   new Twitch.Embed("twitch-embed", {
+     width: 1900,
+     height: 900,
+     channel: "mochawolfroo",
+     theme: 'dark',
+     // only needed if your site is also embedded on embed.example.com and othersite.example.com
+     // parent: ["embed.example.com", "othersite.example.com"]
+   });
+ </script>
+ </div>
+
+</body>
