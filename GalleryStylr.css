@@ -6,13 +6,11 @@ body {
 }
 
 .floated_img {
-    float: left;
-    display:inline-grid;
+    position: relative;
     /* width: 250px; */
     height: 250px;
     /* overflow: hidden; */
-    object-fit: contain;
-    /* crop: insert-rect(250px); */
+    object-fit: fill;
     image-rendering: pixelated;
     padding: 5px;
 
@@ -27,16 +25,17 @@ body {
 
     }
 
- .floated_img:active{
-        width:50%;
-        height:50%;
+ /* .floated_img:active{
+        width:100%;
+        height:100%;
+        object-fit: fill;
         /* align-content: space-around; */
         image-resolution:350dpi;
         /* image-rendering: pixelated; */
         /* background-color: black; */
-        background-clip:unset;
+        background-clip: content-box;
 
-    }
+    } */
 
 nav, .backButton {
     border-radius: 20px;
