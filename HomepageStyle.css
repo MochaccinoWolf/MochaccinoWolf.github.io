@@ -12,6 +12,7 @@ body {
 }
 
 #cffLogo{
+  position: relative;
   float: left;
   height: 100px;
   opacity: .8;
@@ -25,6 +26,7 @@ body {
   /* clip: rect(0px, 400px, 900px, 0px); */
   width: 100%;
   /* top: 200px; */
+
 }
 #discordWidget
 {
@@ -44,18 +46,16 @@ body {
 }
 #main-content {
     min-width: 300px;
+    margin:auto;
     font-size: 20px,2em;
     position: relative;
     color: whitesmoke;
-    width: 100%;
-}
-#textArea {
-     padding: 15px;
-    /* padding-top:20px,2em;
-    padding-left: 30px; */
-    background-color: rgb(32,32,32);
-    
+     background-color: rgb(32,32,32);
+    /* width: 100%; */
+     padding:10px;
+   text-align: start;
 
+    
 }
 .navSidebar{
     /* background-color: #a04f34; */
@@ -67,6 +67,7 @@ body {
     position:relative;
     display:inline-block;
 }
+
 a {
     display: inline-block;
     font-size: 15px, 2em;
@@ -87,38 +88,51 @@ a {
     }
 
 #followTwitterNav{
-    position:sticky;
-    float:right;
-    
+    position: relative;
+    float:right;    
   }
 
 #bottomBar {
-    background-color: black;
+    /* background-color: black; */
     color: whitesmoke;
     position:static;
     width: 100%;
     font-size: 20px,2em;
     display: inline-block;
     text-align:center;
-    opacity:.75;
+    /* opacity:.75; */
 }
 
 #imageBannerLeft{
-    position: relative;
-    height: 500px;
-    overflow:clip;
-    /* float: left; */
+   
+    clip: rect(1200,100);
+
+    overflow: hidden;
+    position: absolute;
+    top:0%;
+    right: 90%;
+    overflow: hidden;
+    image-rendering: optimizeSpeed;
+    float: left;
     left: 100%;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #imageBannerRight{
-    position: relative;
-    height: 500px;
-    width: 300px;
-    overflow:clip;
+    position: absolute;
+    margin: auto;  
+    width: auto;
+    clip: rect(600, 1200);
+    top:0%;
+    right:90%;
+    left: 0%;
+    height: 1200px;
+    /* max-width: width 300px; */
+    image-rendering: optimizeSpeed;
+    overflow:hidden;
+    clip-rule: 200px;
     /* float: right; */
     right: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     
 }
