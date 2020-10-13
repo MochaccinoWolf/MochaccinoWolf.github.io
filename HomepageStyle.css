@@ -45,7 +45,7 @@ body {
     padding:5%;
 }
 #main-content {
-    width:65%;
+    width:1920px;
     align-content: center;
     margin:auto;
     font-size: 20px,2em;
@@ -104,10 +104,11 @@ a {
 }
 
 #imageBannerLeft{
+    clip-path: circle(100%);
     top:0%;
     left: 100%;
     position: absolute;
-    width: 500px;
+    width: 400px;
     /* height: 200px; */
     overflow: none;
     object-fit: cover;
@@ -116,6 +117,7 @@ a {
 }
 
 #imageBannerRight{
+    clip-path: view-box(200px, 1200px);
     top:0%;
     right: 100%;
     position: absolute;
@@ -130,9 +132,10 @@ a {
 }
 
 #textArea{
-    width: 50%;
+    width: 55%;
     padding: 10px;
     float: right;
+    text-justify: auto;
     
     
 }
