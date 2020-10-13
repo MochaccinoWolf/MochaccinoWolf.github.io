@@ -1,14 +1,14 @@
 body {
     margin: 0 auto;
-   
+
     font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-image: url("Images/mochabanner.jpg");
     background-size: auto;
     background-repeat: no-repeat; */
     background-color: black;
-    width: 75%;
-    min-width: 1200px;
+    /* width: 80%; */
+    min-width: 1000px;
 }
 
 #cffLogo{
@@ -16,24 +16,24 @@ body {
   float: left;
   height: 100px;
   opacity: .8;
-  padding: 10px;
+  padding: 5px;
 }
 
 #bgImageTop{
   background-position:center top;
   /* position:static; */
   background-size: cover;
-  /* clip: rect(0px, 400px, 900px, 0px); */
   width: 100%;
   /* top: 200px; */
 
 }
 #discordWidget
 {
-    position: fixed;
-    padding: 100px;
-    left:0%;
-    right:95%;
+    position: relative;
+    float: left;
+    /* padding: 100px; */
+    /* left:0%;
+    right:95%; */
    
 }
 
@@ -42,24 +42,24 @@ body {
     line-height: 5px;
     letter-spacing: 4px;
     color: #ac5b40;
-    padding:25px;
+    padding:5%;
 }
 #main-content {
-    min-width: 300px;
+    width:65%;
+    align-content: center;
     margin:auto;
     font-size: 20px,2em;
     position: relative;
     color: whitesmoke;
-     background-color: rgb(32,32,32);
-    /* width: 100%; */
-     padding:10px;
-   text-align: start;
+    background-color: rgb(32,32,32);
+    /* padding:10px; */
+    text-align: start;
 
     
 }
 .navSidebar{
-    /* background-color: #a04f34; */
-    /* border-radius: 25px; */
+    background-color: #a04f34;
+    border-radius: 5px;
     text-align:center;
     /* padding: 3px; */
     width: 100%;
@@ -104,35 +104,35 @@ a {
 }
 
 #imageBannerLeft{
-   
-    clip: rect(1200,100);
-
-    overflow: hidden;
-    position: absolute;
     top:0%;
-    right: 90%;
-    overflow: hidden;
-    image-rendering: optimizeSpeed;
-    float: left;
     left: 100%;
-    /* padding: 10px; */
+    position: absolute;
+    width: 500px;
+    /* height: 200px; */
+    overflow: none;
+    object-fit: cover;
+    image-rendering: pixelated;
+    padding: 2px;
 }
 
 #imageBannerRight{
-    position: absolute;
-    margin: auto;  
-    width: auto;
-    clip: rect(600, 1200);
     top:0%;
-    right:90%;
-    left: 0%;
-    height: 1200px;
-    /* max-width: width 300px; */
-    image-rendering: optimizeSpeed;
-    overflow:hidden;
-    clip-rule: 200px;
-    /* float: right; */
     right: 100%;
-    /* padding: 10px; */
+    position: absolute;
+    height: 100%;
+    width: 500px;
+    /* height: 200px; */
+    overflow: none;
+    object-fit: cover;
+    image-rendering: pixelated;
+    padding: 2px;
+    
+}
+
+#textArea{
+    width: 50%;
+    padding: 10px;
+    float: right;
+    
     
 }
