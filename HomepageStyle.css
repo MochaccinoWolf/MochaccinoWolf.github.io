@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-
     font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-image: url("Images/mochabanner.jpg");
@@ -8,7 +7,7 @@ body {
     background-repeat: no-repeat; */
     background-color: black;
     /* width: 80%; */
-    min-width: 1000px;
+    min-width: 720px;
 }
 
 #cffLogo{
@@ -29,11 +28,12 @@ body {
 }
 #discordWidget
 {
-    position: relative;
+    position: sticky;
     float: left;
     /* padding: 100px; */
-    /* left:0%;
-    right:95%; */
+    left:0%;
+    right:95%;
+    padding: 10px;
    
 }
 
@@ -44,8 +44,11 @@ body {
     color: #ac5b40;
     padding:5%;
 }
+
 #main-content {
-    width:1920px;
+    /* width:1920px; */
+    padding: 10px;
+    width: 75%;
     align-content: center;
     margin:auto;
     font-size: 20px,2em;
@@ -58,7 +61,7 @@ body {
     
 }
 .navSidebar{
-    background-color: #a04f34;
+    /* background-color: #a04f34; */
     border-radius: 5px;
     text-align:center;
     /* padding: 3px; */
@@ -82,9 +85,6 @@ a {
 }
     a:hover {
         color: wheat;
-        /* border: 1px white solid; 
-        background-color: #ac5b40;
-     */
     }
 
 #followTwitterNav{
@@ -104,11 +104,12 @@ a {
 }
 
 #imageBannerLeft{
-    clip-path: circle(100%);
+    clip-path: view-box(200px, 1200px);
     top:0%;
     left: 100%;
     position: absolute;
-    width: 400px;
+    height: 100%;
+    width: 500px;
     /* height: 200px; */
     overflow: none;
     object-fit: cover;
@@ -135,7 +136,13 @@ a {
     width: 55%;
     padding: 10px;
     float: right;
-    text-justify: auto;
-    
+    text-justify: auto;   
     
 }
+
+#kofiBttn{
+    position: static;
+    top: 295px;
+    left: 310px;
+}
+

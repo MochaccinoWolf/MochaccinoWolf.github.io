@@ -1,15 +1,15 @@
 body {
-    /* background-color:black;
-    width: 100%;
-    margin: 0 auto; */
+    background-color:black;
+    margin: 0 auto;
     font-size: 15px, 2em;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .container {
-    background-color: rgb(32,32,32);
-    position: absolute;
+    /* background-color: rgb(32,32,32); */
+    position: fixed;
+    width: 90%;
     top: 10%;
     padding-left: 5%;
     align-content: space-between;
@@ -17,28 +17,25 @@ body {
     margin: 0 auto;
     flex-wrap: wrap;
     align-items: center;
-    overflow: hidden;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .floated_img {
     position: relative;
-    width: 100px;
-    /* height: 200px; */
-    overflow: none;
+    width: 250px;
+    height: 250px;
+    overflow: clip;
     object-fit: cover;
     image-rendering: pixelated;
-    padding: 5px;
+    padding: 2px;
 
 }
 
  .floated_img:hover
     {
         border: 3px solid wheat;
-        width: 300px;
-        resize: vertical;
-        overflow: visible;
-        max-width: 1200px;
+        overflow:hidden;
+        width: auto;    
 
     }
  
@@ -62,8 +59,9 @@ a:hover{
     /*border: 2px solid black;*/
     color:wheat;
 }
+
 a {
-    display: inline-block;
+    display: inline;
     letter-spacing: 1px;
     /*border: 3px solid black;*/
     padding: 5px;
@@ -86,17 +84,17 @@ a {
 }
 
 
-/* p {
+p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
-
+}
+/* 
 .galleryTable{
     position: fixed;
     width: 90%; 
     margin: 0 auto;
     min-width: 1000px;
     /* float: left; */
-    background-color: rgb(32,32,32);
-    padding: 10px;
+    /* background-color: rgb(32,32,32);
+    padding: 10px; */
 
-}
+/* } */
