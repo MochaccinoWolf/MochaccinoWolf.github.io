@@ -2,17 +2,17 @@ body {
     margin: 0 auto;
     font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-image: url("Images/mochabanner.jpg");
+    /* background-image: url("Images/mochabanner.jpg"); */
     background-size: auto;
-    background-repeat: no-repeat; */
-    background-color: black;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 209, 181);
     /* width: 80%; */
-    min-width: 720px;
+    /* min-width: 720px; */
 }
 
 #cffLogo{
   position: relative;
-  float: left;
+  /* float: left; */
   height: 100px;
   opacity: .8;
   padding: 5px;
@@ -25,16 +25,6 @@ body {
   width: 100%;
   /* top: 200px; */
 
-}
-#discordWidget
-{
-    position: sticky;
-    float: left;
-    /* padding: 100px; */
-    left:0%;
-    right:95%;
-    padding: 10px;
-   
 }
 
 #mainhead {
@@ -53,8 +43,8 @@ body {
     margin:auto;
     font-size: 20px,2em;
     position: relative;
-    color: whitesmoke;
-    background-color: rgb(32,32,32);
+    /* color: whitesmoke; */
+    /* background-color: rgb(32,32,32); */
     /* padding:10px; */
     text-align: start;
 
@@ -83,25 +73,26 @@ a {
     text-emphasis: none;
     /* opacity: .8; */
 }
-    a:hover {
+    /* a:hover {
         color: wheat;
-    }
+    } */
 
-#followTwitterNav{
-    position: relative;
-    float:right;    
-  }
-
-#bottomBar {
+.bottomBar{
     /* background-color: black; */
-    color: whitesmoke;
+    /* color: whitesmoke; */
     position:static;
     width: 100%;
     font-size: 20px,2em;
     display: inline-block;
     text-align:center;
-    /* opacity:.75; */
+    /* opacity:.75; */    
 }
+.bottomBar:hover{
+    border:5px palevioletred;
+    color:palevioletred;
+}
+
+
 
 #imageBannerLeft{
     clip-path: view-box(200px, 1200px);
@@ -110,7 +101,6 @@ a {
     position: absolute;
     height: 100%;
     width: 500px;
-    /* height: 200px; */
     overflow: none;
     object-fit: cover;
     image-rendering: pixelated;
@@ -124,7 +114,6 @@ a {
     position: absolute;
     height: 100%;
     width: 500px;
-    /* height: 200px; */
     overflow: none;
     object-fit: cover;
     image-rendering: pixelated;
