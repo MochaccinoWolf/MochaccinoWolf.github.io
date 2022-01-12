@@ -3,77 +3,119 @@
 <head>
     <title>mochawolfroo.net</title>
 	<meta charset="utf-8" />
+    <link rel="stylesheet" href="globalstyle.css"/>
     <link rel="stylesheet" href="HomepageStyle.css" />
-    <script type="text/javascript" src="/commentlog.json"></script>
+    <script type="text/javascript" src="webJS.js" defer></script>
 
 </head>
 
 <body> 
-    <button class="pagelikebutton">like my page!</button> <p class="likepageCount"> </p>
-    <button class="darkmdbutton">
-        <a>click me for the night</a>       
-    </button>
-    
         <div id="main-content">
             <div>           
              <!--Landing page-->
-              <div>               
+              <!-- <div>               
                 <div>
                     <img id="bgImageTop" src="Images/mochabanner.jpg" alt="Mochawolfroo Banner">
                     <img id="imageBannerRight" src="Images/duskedit.png">
                     <img id="imageBannerLeft" src="Images/MechMayhem.JPG">
-                </div>   
+                </div> -->
                 
                 <!--Site Navagation-->
                  <nav class="navSidebar">
-                    <a href="Gallery.html">Gallery</a> 
+                    <a href="/Gallery.html">Gallery</a>
                     <a href="https://mochaccinowolf.github.io/ProjectsWebsitePage/"> Code Projects</a>
-                    <a href="https://ko-fi.com/Mochawolfroo">Support Me on Kofi </a> 
+                    <a href="https://ko-fi.com/Mochawolfroo">Support Me on Kofi </a>
+                    <a href="/profile.html">Check out my Profile</a>
+
+                    
+                    <!-- <button class="darkmdbutton"> 
+                      <a> click me for the night</a>                  
+                    </button> -->
+
                  </nav>
                  <div>
-                        <img id="cffLogo" src="Images/coffeeshop_trans.PNG" alt="coffeelogo">
+                        <!-- <img id="cffLogo" src="Images/coffeeshop_trans.PNG" alt="coffeelogo"> -->
                         <h1>NEWS</h1>
                         <p>
-                            Latest: <br> -No news yet, check back later!-
+                            Latest: <br> -No news yet, check back later!- <br>
                              1.12.2020 > Example journal <a href="https://twitter.com/Mochawolfroo">Read More -></a> <br>               
                               
                      
-                            MochaWolfroo started under a different name in 2014, where the he began uploading fan art to DeviantArt. <br >
+                            <!-- MochaWolfroo started under a different name in 2014, where the he began uploading fan art to DeviantArt. <br >
                             The person behind the Alias is a small artist named Ben from Michigan. Ben has been drawing since 2010, at the age of 11. He has had inspiration from Disney's Robin Hood, Marvel, DC, as well as Nintendo and PlayStation Franchises. His favourite
                             artist is former Disney director Aaron Blaise. Ben's focus is on animal based characters and illustrations, as well as
-                            creatures made based of Mythology and Fantasy. <br > 
+                            creatures made based of Mythology and Fantasy. <br >  -->
 
                             
                         </p>
                     </div>       
                 </div>
-                <div class="bottomBar">
+                <!-- <div class="bottomBar">
                  <a href="http://Mochawolfroo.deviantart.com/ " target="_blank"> Deviantart </a>
                  <a href="https://twitter.com/Mochawolfroo" target="_blank"> Twitter </a> 
                  <a href="https://picarto.tv/mochawolfroo/" target="_blank">Picarto.TV</a>               
                  <a href="https://www.furaffinity.net/user/mochawolfroo/" target="_blank">Furaffinity</a>       
                  <a href="https://www.youtube.com/channel/UCRpOWTCVEcZtg6i6MvbydRw" target="_blank">YouTube</a>
-                 <a href="https://twitch.tv/MochaWolfroo" target="_blank">Twitch</a>
+                 <a href="https://twitch.tv/MochaWolfroo" target="_blank">Twitch</a> -->
 
-                 <h5 style="color:wheat"> MochaWolfroo &copy; 2017-2020. <a href="https://github.com/MochaccinoWolf" target="_blank"> Hosted with 💗 from GitHub</a></h5>         
-            
-                 
                 </div>  
                 <!--Make a comment section to send to xml to display in plain text-->
-                <span class="commentbox">
-                    <textarea alt-text="send Mocha a message" name="" id="" cols="30" rows="10"></textarea>
-                    <button class="cmmtsubmitbutton">
-                        <p>submit</p>
-                    </button>
-                    
-
-                </span>  
+                
                 <!--Table to display comments in psudeo-grid-->
-                <table class="commenttable">
+                <hr>
+                <form id="myForm" name="myForm">
 
+                        <label for="name">Name</label>
+                        <br/>
+                        <textarea class="nameInput" id="form-text"> </textarea>
+
+                        <br/><br/>
+                        <label for="textarea">Write a message</label>
+                        <br/>
+                            <textarea text="" name="" id="" cols="100" rows="7" wrap="soft">  </textarea>
+                        <input type="submit" value="send message!" class="commentSendButton">
+                            <!-- <p>send message</p> -->
+                </form>
+                        
+                <br><br>
+                <hr>
+
+                <table class="commentTable">
+                    <thead> Comment Section </thead>
+                   <tbody>
+                       <td class="commentBlock"> 
+
+                           <ul id="0001">
+                           <tl class="commentName">Annonymous </tl>                                       
+                           <ul class="commentText">
+                               <p>I think your art is  pretty cool. Followed on twitter.</p>
+                           </ul> 
+                           <tl class="commentTimestamp"> Timestamp 2022-1-11  16:23:56 <tl>                          
+                           </ul>
+                           
+                           <ul id="0002">
+                            <tl class="commentName">Mary Jane </tl>                                           
+                            <ul class="commentText">
+                               <p>Any tips for drawing?</p>                                
+                            </ul> 
+                            <tl class="commentTimestamp">Timestamp 2022-1-11 16:00:23</tl>                       
+                            </ul>                           
+                       </td>
+                       
+                       
+                   </tbody>
                 </table>             
            </div>
          </div>
+         </div>
+
+         <h5 style="color:wheat"> MochaWolfroo &copy; 2022 <a href="https://github.com/MochaccinoWolf/MochaccinoWolf.github.io/" target="_blank"> Hosted from GitHub</a>All Rights Reserved.</h5>
+
+         <div class="likePageCON">
+            <button class="pagelikebutton">like my page!</button> <p class="likepageCount"> </p>
+
+        </div>
+
 </div> 
 </body>
 </html>

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "appID":"discord",
+        "appUser": "Mocha#0519"
+    },
+
+    {
+        "id": 1,
+        "appID":"telegram",
+        "appUser":"mochawolfroo",
+        "url":"https://t.me/mochawolfroo/"
+    }
+]
