@@ -1,14 +1,19 @@
-[
+{
+    "apps":
     {
-        "id": 0,
-        "appID":"discord",
-        "appUser": "Mocha#0519"
-    },
+        "discord":{
+            "id": 0,
+            "appID":"discord",
+            "appUser": "Mocha#0519"
+        },
+        
+        "telegram":{
+            "id": 1,
+            "appID":"telegram",
+            "appUser":"mochawolfroo",
+            "url":"https://t.me/mochawolfroo/"
+        }
 
-    {
-        "id": 1,
-        "appID":"telegram",
-        "appUser":"mochawolfroo",
-        "url":"https://t.me/mochawolfroo/"
+        
     }
-]
+}
