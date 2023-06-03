@@ -1,109 +1,129 @@
-body {
+html{
     margin: 0 auto;
+    align-items: right;
     font-size: 15px,2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-image: url("Images/mochabanner.jpg");
-    background-size: auto;
-    background-repeat: no-repeat; */
-    background-color: black;
-    /* width: 80%; */
+    background-color: #474040;
+    width: 65%;
     min-width: 720px;
 }
-
-#cffLogo{
-  position: relative;
-  float: left;
-  height: 100px;
-  opacity: .8;
-  padding: 5px;
-}
-
-#bgImageTop{
-  background-position:center top;
-  /* position:static; */
-  background-size: cover;
-  width: 100%;
-  /* top: 200px; */
-
-}
-#discordWidget
-{
-    position: sticky;
-    float: left;
-    /* padding: 100px; */
-    left:0%;
-    right:95%;
+body{
+    background-color: rgb(163, 143, 132);
+    border-radius: 20px;
+    min-height: 1800px;
     padding: 10px;
-   
+    width: 90%;  
+    font-size: 20px,2em;   
+    color: whitesmoke;  
 }
 
-#mainhead {
-    text-align: center;
-    line-height: 5px;
-    letter-spacing: 4px;
-    color: #ac5b40;
-    padding:5%;
-}
 
-#main-content {
-    /* width:1920px; */
-    padding: 10px;
-    width: 75%;
-    align-content: center;
-    margin:auto;
-    font-size: 20px,2em;
+
+
+.nav-link{
     position: relative;
-    color: whitesmoke;
-    background-color: rgb(32,32,32);
-    /* padding:10px; */
-    text-align: start;
+    border: #b7725b 2px solid;
+    background-color: #bf6d52;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 6px;
+}
 
+.cffLogo, .splash-content{
+    position: relative;
+    float: left;
+    height: 100px;
+    opacity: .8;
+    padding: 5px;
+   }
+  
+
+.splash-box{
+    background-image: url("/Images/mochabanner.jpg");
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+
+
+.social-box,.social-splashbox{
+    width: 300px;
+    align-content: left;
+    position: fixed;
+    left:15px;
+    top:500px;
+    padding-left: 2%; 
+    border: #4d4646 3px solid;
+    background-color: #403a3a;
+    /* background-image: url("/Images/duskedit.png"); */
+    border-radius: 10px;
+
+
+}
+
+.mocha-transp{
+    position: fixed;
+    width: 600px;
+    bottom: 0px;
+    right: 0px;
     
 }
-.navSidebar{
-    /* background-color: #a04f34; */
-    border-radius: 5px;
-    text-align:center;
-    /* padding: 3px; */
-    width: 100%;
-    /* left: 10%; */
-    position:relative;
-    display:inline-block;
+
+
+
+/* .social-splashbox{
+   
+    background-image: url("#");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .50;
+    border-radius:20px;
+    padding: 0px;
+    overflow: hidden;
+    
+} */
+
+/* :hover{
+    background-position: center;
+    backdrop-filter: blur (300px);
+}
+ */
+
+.bgImageTop{
+  background-position:center top;
+  background-size: cover;
+  width: 90%;
 }
 
+
+
+
 a {
-    display: inline-block;
-    font-size: 15px, 2em;
-    letter-spacing: 1px;
-    padding: 10px;
-    margin: 5px;
+    display: inline-block; 
+    font-size: 15px, 2em; 
+    padding: 5px;
+   
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
     text-emphasis: none;
-    /* opacity: .8; */
+  
 }
-    a:hover {
-        color: wheat;
-    }
+a:hover{
+    border:#ac5b40 2px solid;   
+    background-color: #ac5b40;
+    border-radius: 40px;
 
-#followTwitterNav{
-    position: relative;
-    float:right;    
-  }
-
-#bottomBar {
-    /* background-color: black; */
-    color: whitesmoke;
-    position:static;
-    width: 100%;
-    font-size: 20px,2em;
-    display: inline-block;
-    text-align:center;
-    /* opacity:.75; */
 }
 
-#imageBannerLeft{
+
+.imageBannerLeft{
     clip-path: view-box(200px, 1200px);
     top:0%;
     left: 100%;
@@ -117,7 +137,7 @@ a {
     padding: 2px;
 }
 
-#imageBannerRight{
+.imageBannerRight{
     clip-path: view-box(200px, 1200px);
     top:0%;
     right: 100%;
@@ -132,17 +152,14 @@ a {
     
 }
 
-#textArea{
-    width: 55%;
-    padding: 10px;
-    float: right;
-    text-justify: auto;   
-    
-}
+footer{
+    background-color:rgb(57, 50, 50);
+    padding: 20px;
+    border: 2px solid red;
+    opacity: .7;
+    position: relative;
+    bottom: 10px;
+    width:1300px;
 
-#kofiBttn{
-    position: static;
-    top: 295px;
-    left: 310px;
 }
 
